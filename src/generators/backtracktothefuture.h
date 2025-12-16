@@ -1,0 +1,3 @@
+#ifndef btttf
+
+#endif // !btttf

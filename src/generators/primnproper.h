@@ -1,0 +1,3 @@
+#ifndef pnp
+
+#endif // !pnp

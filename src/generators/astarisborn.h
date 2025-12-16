@@ -1,0 +1,3 @@
+#ifndef asib
+
+#endif // !asib
