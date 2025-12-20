@@ -1,7 +1,11 @@
 #ifndef btttf
-#include <stddef.h>
+#define btttf
+#include "maze.h"
 
-int delorean(int s_x, int s_y, int width, int height, int **maze);
+// Update the prototype:
+int delorean(Maze *maze, int start_x, int start_y);
+
+// Helpers (Optional to expose, but usually fine)
 int shuffle_arr(int length, int *directions);
-void print_ascii_maze(int height, int width, int **maze);
+
 #endif // !btttf
