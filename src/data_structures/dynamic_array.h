@@ -1,4 +1,5 @@
 #ifndef dynamic_array_h
+#define dynamic_array_h
 #include <stddef.h>
 
 typedef struct {
