@@ -1,5 +1,7 @@
-#ifndef queue
-#define queue
+#ifndef QUEUE_H
+#define QUEUE_H
+
+#include <stdlib.h> // For EXIT_SUCCESS/FAILURE context if needed
 
 typedef struct QNode {
   int x_coord;
@@ -12,9 +14,11 @@ typedef struct {
   QueueNode *tail;
   int count;
 } Queue;
+
+// Function Prototypes
 Queue *queue_init(void);
 int queue_push(Queue *queue, int x, int y);
 QueueNode *queue_pop(Queue *queue);
-// Walk through the linked list to free every node;
 int queue_free(Queue *queue);
-#endif // !queue
+
+#endif // QUEUE_H
