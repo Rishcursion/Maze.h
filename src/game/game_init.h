@@ -5,6 +5,7 @@
 #include "../solvers/bruhfirstsearch.h"
 #include "menu.h"
 #include "player.h"
+
 typedef struct {
   PlayerState player;
   Maze *maze_state;
