@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/./src/main.c.o",
+      "src/main.c"
+    ],
+    "directory": "/home/hecker/codestuff/sde_projects/maze-game",
+    "file": "/home/hecker/codestuff/sde_projects/maze-game/src/main.c",
+    "output": "/home/hecker/codestuff/sde_projects/maze-game/build/src/main.c.o"
+  }
+]
